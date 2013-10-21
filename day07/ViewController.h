@@ -11,6 +11,6 @@
 @interface ViewController : UIViewController
 
 
--(void) findSpecilaWordInAnArray:(NSArray *)array andWord:(NSString *)word_v;
+-(void) findSpecilaWordInAnArray:(NSMutableArray *)array andWord:(NSString *)word_v;
 
 @end
